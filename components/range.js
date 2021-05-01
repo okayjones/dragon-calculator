@@ -6,7 +6,7 @@ export default function Range({ dragon }) {
     
     return(
         <div className="mt-16">
-            ❤️ left to sweep: <span className="font-bold">{ min.toLocaleString() } - { max.toLocaleString() }</span>
+            ❤️  left to sweep: <span className="font-bold">{ min.toLocaleString() } - { max.toLocaleString() }</span>
         </div>
     )
 }
